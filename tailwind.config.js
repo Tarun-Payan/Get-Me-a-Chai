@@ -12,6 +12,11 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      gridTemplateRows: {
+        // Complex site-specific row configuration
+        // I have make three components that first and last take space equale to its height and middle one take remaining space
+        'rows3': 'auto 1fr auto',
+      },
     },
   },
   plugins: [],
